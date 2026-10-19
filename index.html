@@ -10,11 +10,14 @@
      <br> salto de linea </br>
      <h2>¿COMO ESTAS?</h2>
      <p> Estamos en clase de lenguajes y sistemas </p>
-     <a href="www.https://www.google.com">haz click aqui</a> 
-     <img src="montaña.avif" 
+     <img 
+     src="montaña.avif" 
      width="400" 
      alt="pedazo de montaña" 
      title="montañaca">
+    <br>
+    <a href="www.https://www.google.com" >haz click aqui</a> 
+    
      <h2>tipos de lista</h2>
      <ul>
       <li><a href="www.https://www.google.com">lista 1</a> </li>
@@ -57,16 +60,27 @@
     <br>
     <br>
     
-    <h3>introduce datos de registro</h3>
+    <h3>Introduce datos de registro</h3>
     <form>
+        <fieldset>
         <legend>DATOS DE REGISTRO</legend>
         <br>
         <label>Nombre: 
           <input type="text"placeholder="Escribe aqui tu nombre">
-        </label>
+          <br>
+        </label>Edad:
+          <input min="1" max="100" type="number"placeholder="Escribe aqui tu edad">
+          <br>
+        </label>Email:
+          <input type="email"placeholder="Escribe aqui tu email">
+          <br>
+        </label>Fecha de nacimiento:
+          <input type="day" type="month" type="week">
+
         <br>
         <br>
         <button type="submit">Enviar</button>
+        </fieldset>
         
     </form>
 </body>    
